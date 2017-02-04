@@ -8,7 +8,7 @@
     $message = $updates['message']['text'];
 
     if($message == "/start"){
-        sendMessage("Gne ti amo")
+        sendMessage("Gne ti amo");
     }
 
     function sendMessage($chat_id,$message){
